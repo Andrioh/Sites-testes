@@ -1,5 +1,4 @@
 # Sites-testes
-Sites que eu fiz para treinar
 
 <!DOCTYPE html>
 <html lang="pt-br">
