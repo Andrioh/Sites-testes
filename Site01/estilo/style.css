@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(29, 27, 27);
+}
+
+header{
+    background-color: rgb(22, 21, 21);
+    width: auto;
+    height: 200px;
+}
+
+.main01{
+    display: flex;
+    margin: auto;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    height: 1000px;
+    width: 1000px;
+}
+
+.main02{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(32, 32, 32);
+    height: 100px;
+}
+
+.H1Titutlo1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+    text-align: center;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+div{
+  display: flex;
+    margin-top: 32px;
+    margin-left: auto;
+    width: 40px;
+    text-decoration: none;
+    background-color: rgb(34, 34, 34);
+    padding: 4px;
+    border-radius: 10px 0px 0px 0px;  
+}
+
+div:hover{
+    background-color: rgba(34, 34, 34, 0.438);
+}
+
+.PSub1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Sub01{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}
+
+.Sub02{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+div.video{
+    background-color: rgba(20, 20, 20, 0.438);
+    margin: 10px 50px 50px 0px;
+    height: 320px;
+    width: 520px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+} 
