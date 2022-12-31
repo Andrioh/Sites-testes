@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+:root {
+    --cor01: #0f0c29;
+    --cor02: #302b63;
+    --cor03: #24243e;
+
+    --cor04: #222222;
+
+    --cor05: #1e3c72; 
+    --cor06: #2a5298;
+}
+
+body {
+    background-image: linear-gradient(90deg, var(--cor01), var(--cor02), var(--cor03));
+}
+
+#body2{
+    background-image: linear-gradient(90deg, var(--cor05), var(--cor06));
+
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+
+    border-radius: 10px;
+
+    height: 600px;
+    width: 1000px;
+}
+
+header {
+
+    display: flex;
+    margin: auto;
+}
+
+.H1Header{
+    display: inline-block;
+    color: white;
+    margin: 0px 525px 0px 0px;
+    padding: 0px 0px 500px 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.H1Header::before{
+    content: '🔗';
+}
+
+.nav1{
+    margin: 42px 28px 0px 0px;
+    padding: 0px 0px 500px 0px;
+}
+
+.nav1A{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.nav1A:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: inline-block;
+    
+    background-color: #0f0c29;
+    margin: 146px -2px 6px -240px;
+}
+
+.imagem{
+    display: inline-block;
+}
+
+.imagem2{
+    border-radius: 10px;
+}
