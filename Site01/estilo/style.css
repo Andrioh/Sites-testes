@@ -1,87 +1,96 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Fonte01';
+    src: url('../Fonte/SignikaNegative-Bold.ttf');
+}
+
+:root{
+    --Cor01: #CC2365;
+    --Cor02: #BB1874;
+}
+
 body{
-    background-color: rgb(29, 27, 27);
+    background-image: linear-gradient(90deg,var(--Cor01),var(--Cor02));
 }
 
 header{
-    background-color: rgb(22, 21, 21);
-    width: auto;
-    height: 200px;
-}
-
-.main01{
-    display: flex;
-    margin: auto;
+    font-family: "Fonte01",sans-serif;
     color: white;
-    background-color: rgb(32, 32, 32);
-    height: 1000px;
-    width: 1000px;
+    
 }
 
-.main02{
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(32, 32, 32);
-    height: 100px;
+nav{
+    display: inline;
+    margin-left: 400px;
+    margin-top: -49px;
 }
 
-.H1Titutlo1{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 70px;
-    text-align: center;
-}
-
-a{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-weight: bold;
-}
-
-div{
-  display: flex;
-    margin-top: 32px;
-    margin-left: auto;
-    width: 40px;
-    text-decoration: none;
-    background-color: rgb(34, 34, 34);
-    padding: 4px;
-    border-radius: 10px 0px 0px 0px;  
-}
-
-div:hover{
-    background-color: rgba(34, 34, 34, 0.438);
-}
-
-.PSub1{
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.Sub01{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-indent: 20px;
-}
-
-.Sub02{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-indent: 20px;
-    padding: 20px;
-    text-align: justify;
-    line-height: 1.2em;
-}
-
-div.video{
-    background-color: rgba(20, 20, 20, 0.438);
-    margin: 10px 50px 50px 0px;
-    height: 320px;
-    width: 520px;
-    margin: auto;
-    padding: 20px;
-    position: relative;
+button{
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 220px;
+    background-color: transparent;
+    border: 2px, solid rgb(255, 255, 255);
     border-radius: 10px;
-} 
+    font-family: "Fonte01",sans-serif;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+/* Classes: */
+
+.TituloHeader{
+    display: inline-block;
+    margin-left: 218px;
+}
+
+.TituloMain{
+    font-family: "Fonte01",sans-serif;
+    color: white;
+    font-weight: bold;
+    margin: -303px 0px 0px 221px;
+    font-size: 3em;
+}
+
+.TituloMain2{
+    font-family: "Fonte01",sans-serif;
+    color: white;
+    font-weight: bold;
+    margin: 0px 0px 0px 220px;
+    font-size: 3em;
+}
+
+.LinkHeader{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: "Fonte01",sans-serif;
+    padding-left: 10px;
+}
+
+.LinkHeader:hover{
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+.ImagemMain{
+    display: block;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+.DivMain{
+    width: 440px;
+    padding-left: 220px;
+}
+
+.ParágrafoMain{
+    color: white;
+    font-family: "Font01", sans-serif;
+    font-weight: bold;
+}
