@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Fonte01';
+    src: url('../Fonte/SignikaNegative-Bold.ttf');
+}
+
+:root{
+    --Cor01: #CC2365;
+    --Cor02: #BB1874;
+}
+
+body{
+    background-image: linear-gradient(90deg,var(--Cor01),var(--Cor02));
+}
+
+header{
+    font-family: "Fonte01",sans-serif;
+    color: white;
+    
+}
+
+nav{
+    display: inline;
+    margin-left: 400px;
+    margin-top: -49px;
+}
+
+button{
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 220px;
+    background-color: transparent;
+    border: 2px, solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: "Fonte01",sans-serif;
+}
+
+button:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Classes: */
+
+.TituloHeader{
+    display: inline-block;
+    margin-left: 218px;
+}
+
+.TituloMain{
+    font-family: "Fonte01",sans-serif;
+    color: white;
+    font-weight: bold;
+    margin: -303px 0px 0px 221px;
+    font-size: 3em;
+}
+
+.TituloMain2{
+    font-family: "Fonte01",sans-serif;
+    color: white;
+    font-weight: bold;
+    margin: 0px 0px 0px 220px;
+    font-size: 3em;
+}
+
+.LinkHeader{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: "Fonte01",sans-serif;
+    padding-left: 10px;
+}
+
+.LinkHeader:hover{
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+.ImagemMain{
+    display: block;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+.DivMain{
+    width: 440px;
+    padding-left: 220px;
+}
+
+.ParágrafoMain{
+    color: white;
+    font-family: "Font01", sans-serif;
+    font-weight: bold;
+}
