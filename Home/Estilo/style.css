@@ -51,7 +51,8 @@ a:hover {
 }
 
 .DivMain01 {
-    margin-left: 46%;
+    right: 50%;
+    transform: translate(42.5%);
 }
 
 .DivMain02 {
@@ -60,4 +61,8 @@ a:hover {
     height: 30px;
     width: auto;
     background-color: #232526;
+}
+
+.PaddingLink{
+    padding-left: 10px;
 }
