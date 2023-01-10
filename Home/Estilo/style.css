@@ -78,22 +78,17 @@ a:hover{
     text-decoration: underline;
 }
 
-.Link1{
+nav{
     position: absolute;
 
     top: 50%;
-    right: 54%;
+    left: 50%;
 
-    transform: translate(54%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-.Link2{
-    position: absolute;
-
-    top: 50%;
-    right: 46%;
-
-    transform: translate(46%, -50%);
+.Link{
+    padding: 10px;
 }
 
 /* Footer: */
