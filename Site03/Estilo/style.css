@@ -22,6 +22,15 @@ main{
     width: 100vw;
 }
 
+footer{
+    position: absolute;
+
+    bottom: 0%;
+
+    height: 40vh;
+    width: 100vw;
+}
+
 /* Classes: */
 
 .DivHeader2{
@@ -148,4 +157,82 @@ main{
     background-color: #0052af;
 
     border: 1px solid #ffffff;
+}
+
+
+.Selecao{
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    height: 80%;
+    width: 60%;
+}
+
+.Selecao1{
+    position: absolute;
+
+    height: 100%;
+    width: 30%;
+}
+
+.Selecao2{
+    position: absolute;
+
+
+    right: 0%;
+
+    height: 100%;
+    width: 30%;
+}
+
+.Selecao3{
+    position: absolute;
+
+
+    right: 50%;
+
+    transform: translate(50%, 0%);
+
+    height: 100%;
+    width: 30%;
+}
+
+.Circulo{
+    position: absolute;
+
+    border-radius: 100%;
+
+    background-color: #494949;
+
+    top: 10%;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+
+    height: 50%;
+    width: 50%;
+}
+
+.ParagrafoSelecao{
+    position: absolute;
+
+    width: 100%;
+
+    bottom: 0%;
+    left: 50%;
+    text-align: center;
+
+    transform: translate(-50%);
+
+    color: #000000;
+
+    font-size: 10px;
+}
+
+.Circulo:hover{
+    background-color: #a3a3a3;
 }
