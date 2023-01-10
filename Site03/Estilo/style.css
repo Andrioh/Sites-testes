@@ -43,6 +43,9 @@ footer{
 
 .TituloHeader2{
     position: absolute;
+    display: flexbox;
+
+    padding-right: 10%;
 
     color: #ffffff;
 
@@ -54,6 +57,8 @@ footer{
 
 .NavHeader2{
     position: absolute;
+    display: flexbox;
+    padding-left: 5%;
 
     top: 50%;
     left: 20vh;
@@ -130,6 +135,8 @@ footer{
 
 .ParagrafoMain{
     position: absolute;
+    display: flexbox;
+
     color: #ffffff;
 
     top: 60%;
@@ -138,18 +145,19 @@ footer{
 
 .Botao2{
     position: absolute;
+    display: flexbox;
 
     color: #ffffff;
     background-color: #0077ff;
 
-    border: 0px;
+    border: 1px;
 
     font-weight: bold;
 
     height: 5vh;
     width: 10vw;
 
-    top: 75%;
+    bottom: 10%;
     left: 8%;
 }
 
@@ -235,4 +243,29 @@ footer{
 
 .Circulo:hover{
     background-color: #a3a3a3;
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (max-height: 600px) {
+    
+    .A1, .A2, .A3{
+        position: absolute;
+        
+        width: 30vw;
+    
+        opacity: 0;
+    }
+    
+    .A1:hover{
+        opacity: 10;
+    }
+
+    .A2:hover{
+        opacity: 10;
+    }
+
+    .A3:hover{
+        opacity: 10;
+    }
+
 }
